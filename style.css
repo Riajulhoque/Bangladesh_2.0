@@ -186,6 +186,7 @@ nav{
         text-align: left;
       }
       p{
+        margin-left: 0px;
         margin-top: 20px;
         color: rgba(14, 14, 14, 0.7);
         font-family: Fira Sans;
@@ -239,6 +240,7 @@ nav{
       }
       p{
         margin-top: 20px;
+        margin-left: 0px;
         color: rgba(14, 14, 14, 0.7);
         font-family: Fira Sans;
         font-size: 16px;
@@ -291,6 +293,7 @@ nav{
       }
       p{
         margin-top: 20px;
+        margin-left: 0px;
         color: rgba(14, 14, 14, 0.7);
         font-family: Fira Sans;
         font-size: 16px;
