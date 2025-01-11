@@ -21,20 +21,21 @@ nav{
   }
 }
 .button{
-  h3{
-    color: rgb(0, 106, 80);
-    font-family: Fira Sans;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0%;
-    text-align: left;
-    padding: 11px 22px;
-    border: 2px solid forestgreen;
-    border-radius: 8px;
-  }
   a{
     text-decoration: none;
+    h3{
+      color: rgb(0, 106, 80);
+      font-family: Fira Sans;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 22px;
+      letter-spacing: 0%;
+      text-align: left;
+      padding: 11px 22px;
+      border: 2px solid forestgreen;
+      border-radius: 8px;
+    }
+    display: inline-block;
   }
   &:hover h3{
     background-color: rgb(0, 106, 80);
@@ -139,3 +140,188 @@ nav{
   }
 }
 /* Pillar section ends here */
+/* vision section starts here */
+#vision{
+  margin-top: 30px;
+  h2{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  p{
+    margin-top: 20px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .vision{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    .card_1{
+      margin-top: 30px;
+      width: 410px;
+      box-sizing: border-box;
+      border-radius: 16px;
+      background: rgba(84, 144, 245, 0.2);
+      padding: 32px;
+      h4{
+        margin-top: 25px;
+        color: rgba(14, 14, 14, 0.8);
+        font-family: Fira Sans;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      p{
+        margin-top: 20px;
+        color: rgba(14, 14, 14, 0.7);
+        font-family: Fira Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      .button{
+        margin-top: 24px;
+        display: inline-block;
+        a{
+          text-decoration: none;
+          h3{
+            color: rgb(0, 106, 80);
+            font-family: Fira Sans;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 22px;
+            letter-spacing: 0%;
+            text-align: left;
+            padding: 11px 22px;
+            border: 2px solid  rgb(84, 144, 245);
+            border-radius: 8px;
+          }
+          display: inline-block;
+        }
+        &:hover h3{
+          background-color:  rgb(84, 144, 245);
+          color: aliceblue;
+        }
+      }
+    }
+    .card_2{
+      margin-top: 30px;
+      width: 410px;
+      box-sizing: border-box;
+      border-radius: 16px;
+      background: rgb(198, 228, 214);
+      padding: 32px;
+      h4{
+        margin-top: 25px;
+        color: rgba(14, 14, 14, 0.8);
+        font-family: Fira Sans;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      p{
+        margin-top: 20px;
+        color: rgba(14, 14, 14, 0.7);
+        font-family: Fira Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      .button{
+        margin-top: 24px;
+        display: inline-block;
+        a{
+          text-decoration: none;
+          h3{
+            color:black;
+            font-family: Fira Sans;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 22px;
+            letter-spacing: 0%;
+            text-align: left;
+            padding: 11px 22px;
+            border: 2px solid rgb(9, 161, 92);
+            border-radius: 8px;
+          }
+          display: inline-block;
+        }
+        &:hover h3{
+          background-color: rgb(9, 161, 92);
+          color: aliceblue;
+        }
+      }
+    }
+    .card_3{
+      margin-top: 30px;
+      width: 410px;
+      box-sizing: border-box;
+      border-radius: 16px;
+      background: rgb(247, 235, 207);
+      padding: 32px;
+      h4{
+        margin-top: 25px;
+        color: rgba(14, 14, 14, 0.8);
+        font-family: Fira Sans;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      p{
+        margin-top: 20px;
+        color: rgba(14, 14, 14, 0.7);
+        font-family: Fira Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      .button{
+        margin-top: 24px;
+        display: inline-block;
+        a{
+          text-decoration: none;
+          h3{
+            color: black;
+            font-family: Fira Sans;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 22px;
+            letter-spacing: 0%;
+            text-align: left;
+            padding: 11px 22px;
+            border: 2px solid  rgb(255, 194, 57);
+            border-radius: 8px;
+          }
+          display: inline-block;
+        }
+        &:hover h3{
+          background-color:  rgb(255, 194, 57);
+          color: aliceblue;
+        }
+      }
+    }
+  }
+}
+/* vision section ends here */
