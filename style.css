@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  h2{
+    color: black;
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  a{
+    text-decoration: none;
+  }
+}
+.button{
+  h3{
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 11px 22px;
+    border: 2px solid forestgreen;
+    border-radius: 8px;
+  }
+  a{
+    text-decoration: none;
+  }
+  &:hover h3{
+    background-color: rgb(0, 106, 80);
+    color: aliceblue;
+  }
+}
+/* banner section starts here */
+#Banner{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(198, 228, 214);
+  padding: 80PX 0PX;
+  .text{
+    width: 55%;
+    margin-left: 60px;
+    h4{
+      position: static;
+      width: 622px;
+      height: 29px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 16;
+      padding: 0px;
+      color: rgba(14, 14, 14, 0.5);
+      font-family: Fira Sans;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 29px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+    h2{
+      color: rgb(14, 14, 14);
+      font-family: Fira Sans;
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 67px;
+      letter-spacing: 0%;
+      text-align: left;
+      margin-top: 15px;
+    }
+    .button{
+      margin-top: 30px;
+      display: inline-block;
+    }
+  }
+  .image{
+    width: 40%;
+    margin-top: 10px;
+  }
+}
+/* banner section ends here */
+/* Pillar section starts here */
+
+/* Pillar section ends here */
